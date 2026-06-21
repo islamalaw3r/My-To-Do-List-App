@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+
+    background:linear-gradient(
+        135deg,
+        #556B2F,
+        #6B8E23
+    );
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+
+    position:relative;
+
+    width:600px;
+
+    min-height:500px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.check-bg{
+
+    position:absolute;
+
+    font-size:100px;
+
+    opacity:.07;
+
+    color:#556B2F;
+
+    top:60%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    pointer-events:none;
+}
+
+h1{
+    text-align:center;
+    color:#556B2F;
+    font-size: 1em;
+}
+
+.subtitle{
+    text-align:center;
+    color:gray;
+    margin:10px 0 20px;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+}
+
+input{
+    flex:1;
+    padding:12px;
+
+    border:2px solid #556B2F;
+
+    border-radius:10px;
+}
+
+#addBtn{
+
+    background:#556B2F;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+}
+
+#addBtn:hover{
+    background:#6B8E23;
+}
+
+
+.filters{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin-top:20px;
+}
+
+.filter-btn,
+#clearCompleted{
+
+    border:none;
+
+    padding:10px 15px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+.filter-btn{
+    background:#eef2e4;
+}
+
+.filter-btn.active{
+    background:#556B2F;
+    color:white;
+}
+
+#clearCompleted{
+    background:#c0392b;
+    color:white;
+}
+
+ul{
+    margin-top:20px;
+}
+
+li{
+
+    list-style:none;
+
+    background:#eef2e4;
+
+    margin-bottom:10px;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    transition:.3s;
+}
+
+li:hover{
+    transform:translateY(-3px);
+}
+
+.task-text{
+    cursor:pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn{
+
+    background:red;
+
+    color:white;
+
+    border:none;
+
+    padding:6px 10px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+}
+
+#emptyMessage{
+    position:absolute;
+
+    top:70%;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    text-align:center;
+
+    color:#556B2F;
+
+    opacity:.35;
+
+    font-size:18px;
+
+    width:100%;
+}
+
+#counter{
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%);
+
+    font-weight:bold;
+    color:#556B2F;
+}
