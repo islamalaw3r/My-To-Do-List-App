@@ -4,13 +4,13 @@ A simple and interactive To-Do List web application built using HTML, CSS, and J
 ---
 
 ##🚀 Features
-➕ Add new tasks easily
-☑ Mark tasks as completed
-🗑 Delete individual tasks
-🔍 Filter tasks (All / Active / Completed)
-🧹 Clear all completed tasks
-📊 Live counter for remaining tasks
-🎨 Clean UI with olive-green theme and modern design
+➕ Add new tasks easily,
+☑ Mark tasks as completed,
+🗑 Delete individual tasks,
+🔍 Filter tasks (All / Active / Completed),
+🧹 Clear all completed tasks,
+📊 Live counter for remaining tasks,
+🎨 Clean UI with olive-green theme and modern design.
 
 ---
 
@@ -57,5 +57,3 @@ University Number: 2320226518
 Built using pure JavaScript (no frameworks)
 Focused on DOM manipulation and event handling
 Responsive and beginner-friendly project
-
-إذا بدك أعمل لك كمان:
